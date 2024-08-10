@@ -1,0 +1,57 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CLASS SELECTOR - Gives color to specific declared class only Represented by .classname*/ 
+        .alpha{
+            background-color: aqua;
+            color: blue;
+        }
+        
+        /* ID selectors - Specific ID only, Reperesented by #IDNAME */
+        #gamma{
+            color: turquoise;
+        }
+
+        /* Child Selector - This color is given only to the direct child of a block/inline element 
+        Represented by- blockname > childname {}
+        here article's paragaraph won't be coloured as it is not direct child of div */
+
+        div > p {
+            color:blanchedalmond;
+            background-color: black;
+        }
+        
+        /* Descendent Selector - IT color all the desendents 
+        Represent by - blockname desendentname {} */
+
+        div p {
+            color:yellowgreen;
+            background-color: blueviolet;
+        }
+        
+        /* Universal Selectors - Selects all elements represented by *{} */
+        * {
+            margin: 0;
+            padding:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="alpha">
+        My name is Divyansh
+        <p>HELLO BROTHER I AM DIV PARAGRAPH</p>
+        <article>
+            <p>Hello i am descendent paragraph</p>
+
+        </article>
+    </div>
+    <div id="gamma">
+        OM JAI JAGDISHWARYE
+    </div>
+    
+</body>
+</html>

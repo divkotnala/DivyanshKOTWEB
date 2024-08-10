@@ -1,0 +1,58 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* NON PSEUDO SELCTORS WITH LINK */
+        #xp5 {
+            color: crimson;
+        }
+
+        /* Pseudo SELCTORS Anchor Tags */
+        a:visited {
+            color:black;
+        }
+
+        a:link {
+            color:blueviolet;  /*NORMAL LINK VIEW */
+        }
+
+        a:active {
+            color: red; 
+        }
+
+        a:hover {
+            color: darkorange; 
+
+        }
+
+        /* Pseudo SELCTORS List Items */
+        p:first-child {
+            color: darkgreen;
+            background-color: blue;
+        }
+        li:last-child {
+            color: darkviolet;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <p>I am first child</p>
+        <p>I am second child
+            <ol>
+                <li>Hello</li>
+                <li>Divyansh</li>
+                <li>Bye</li>
+            </ol>
+        </p>
+    </main>
+    <div>
+        <a href="https://google.com" id="xp5">GOOGLE BABA</a>
+        <a href="https://facebook.com">facebookJI</a>
+        <a href="https://youtube.com">Youtube ads</a>
+    </div>
+</body>
+</html>
