@@ -5,7 +5,7 @@ let a = prompt("Enter Element to be added : ");
 while(true){ //ERROR : Used True but correct is true
     x.push(a);
     n = prompt("Do you want to add more elements to the array (y/n)? : ");
-    if (n == "y"){
+    if (n == "y"){ 
         a = prompt("Enter Element to be added : "); // dont use again push command, it will automatically pass
     }
     else {
@@ -15,3 +15,4 @@ while(true){ //ERROR : Used True but correct is true
 }
 //error - forgot to use consolelog
 console.log(`Array Entered is : ${x}`);
+
